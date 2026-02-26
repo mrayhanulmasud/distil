@@ -1,0 +1,126 @@
+# -----------------------------
+# Python / Jupyter .gitignore
+# -----------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+pytest_cache/
+hypothesis/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Type checking / linters
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IPython
+.ipython/profile_default/
+ipython_config.py
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+conda-env/
+.condarc
+
+# Pyenv
+.python-version
+
+# Poetry
+poetry.lock
+
+# Pipenv
+Pipfile.lock
+
+# UV (if you use it)
+.uv/
+uv.lock
+
+# JupyterLab/Notebook runtime files
+.jupyter/
+.jupyterlab/
+local_history/
+*.jupyterlab-workspace
+
+# Logs
+*.log
+
+# Data / artifacts (common — adjust to your needs)
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Model / experiment outputs (common — adjust)
+runs/
+wandb/
+mlruns/
+checkpoints/
+outputs/
+results/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
